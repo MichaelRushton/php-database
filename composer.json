@@ -1,0 +1,22 @@
+{
+    "name": "michaelrushton/database",
+    "description": "A PHP library to access a database.",
+    "license": "MIT",
+    "require": {
+        "php": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MichaelRushton\\Database\\": "src/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^5.3",
+        "friendsofphp/php-cs-fixer": "^3.95"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
